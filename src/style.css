@@ -1,0 +1,170 @@
+h1 {
+    color: #1f4d1e;
+    font-family: 'Helvetica';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.industry-container {
+    flex: 1;
+    flex-basis: calc(25% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.industry-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.company-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.company-list-item {
+    margin-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    background-color: #45a049;
+}
+
+.closeNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: white;
+}
+
+.closeNav button {
+    margin: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.closeNav button:hover {
+    background-color: #45a049;
+}
+
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.feedback-section {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.posted-feedback {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    /* You can change the background color to your preference */
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    /* You can change the text color to your preference */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+    color: #ffd700;
+    /* Change the color to your preferred hover color */
+}
